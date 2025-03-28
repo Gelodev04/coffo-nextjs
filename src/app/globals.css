@@ -1,8 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic');
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic');
+
 @import "tailwindcss";
+
+body{
+  background-color: #fffaf7;
+}
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+}
+
+@theme{
+  --color-main: #2b231e;
+  --color-secondary: #312E29;
+  --color-tertiary: #d74545;
+  --font-playfair: "Playfair Display", serif;
+  --font-dm: "DM Sans", serif;
 }
 
 @theme inline {
@@ -12,15 +27,4 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
