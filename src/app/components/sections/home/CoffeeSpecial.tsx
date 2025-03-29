@@ -26,7 +26,7 @@ export default function CoffeeSpecial() {
 
       <DynamicButton text="go to shop" />
 
-      
+      <div className="mt-10"><HappyHours/></div>
     </section>
   );
 }

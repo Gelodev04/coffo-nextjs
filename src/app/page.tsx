@@ -7,6 +7,7 @@ import OurMenu from "./components/sections/home/OurMenu";
 import Gallery from "./components/sections/home/Gallery";
 import UniqueAtmosphere from "./components/sections/home/UniqueAtmosphere";
 import CoffeeSpecial from "./components/sections/home/CoffeeSpecial";
+import Testimonials from "./components/sections/home/Testimonials";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
         <Gallery/>
         <UniqueAtmosphere/>
         <CoffeeSpecial/>
-        
+        <Testimonials/>
         <div className="h-screen"></div>
       </main>
     </>
