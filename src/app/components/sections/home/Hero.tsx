@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react";
-import Divider from "../../Divider";
+import Divider from "../../ui/Divider";
 import { OrderNow } from "../../ui/buttons/OrderNow";
 
 export default function Hero() {
   return (
     <section
-      className="flex flex-col justify-center items-center space-y-6 py-14"
+      className="flex flex-col justify-center items-center space-y-6 py-14 px-5"
       aria-labelledby="hero-title"
     >
       <figure className="relative ">
@@ -30,7 +30,7 @@ export default function Hero() {
         </figcaption>
       </figure>
 
-      <Divider />
+      <Divider color="#2b231e" />
 
       <header className="text-center space-y-4">
         <h1

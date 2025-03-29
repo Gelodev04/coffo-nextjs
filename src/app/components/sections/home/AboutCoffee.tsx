@@ -1,31 +1,16 @@
 import Image from "next/image";
 import React from "react";
-import Divider from "../../Divider";
+import Divider from "../../ui/Divider";
 import { DynamicButton } from "../../ui/buttons/DynamicButton";
+import DecorativeImage from "../../ui/DecorativeImage";
 
 export default function AboutCoffee() {
   return (
-    <section className="bg-white py-14 flex flex-col items-center text-center space-y-6 relative">
-      <figure className="relative">
-        <Image
-          className="w-[290px] object-cover"
-          src="/images/about-girl.png"
-          alt="A girl drinking coffee"
-          width={290}
-          height={290}
-        />
-        <Image
-          className="absolute bottom-[-20px] left-[-50px] w-[160px]"
-          src="/images/hero-flower.png"
-          alt=""
-          width={160}
-          height={160}
-          aria-hidden="true"
-        />
-      </figure>
+    <section className="bg-white py-14 flex flex-col items-center text-center space-y-6 relative px-5">
+      <DecorativeImage src="/images/about-girl.png" alt="Girl drinking coffee"/>
 
       <div className="my-4">
-        <Divider />
+        <Divider color="#2b231e" />
       </div>
 
       <article className="">

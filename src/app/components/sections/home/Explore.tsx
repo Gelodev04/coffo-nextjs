@@ -1,5 +1,5 @@
 import React from "react";
-import Divider from "../../Divider";
+import Divider from "../../ui/Divider";
 import Image from "next/image";
 import { DynamicButton } from "../../ui/buttons/DynamicButton";
 
@@ -24,8 +24,8 @@ export default function Explore() {
   ];
 
   return (
-    <section className="flex flex-col items-center text-center space-y-4 py-14">
-      <Divider />
+    <section className="flex flex-col items-center text-center space-y-4 py-14 px-5">
+      <Divider color="#2b231e" />
       <h1 className="text-main text-[2.3rem] font-playfair font-semibold leading-tight">
         Explore our <br /> coffee shop
       </h1>
