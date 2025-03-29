@@ -16,6 +16,7 @@ body{
   --color-main: #2b231e;
   --color-secondary: #312E29;
   --color-tertiary: #d74545;
+  --color-lightsecondary: #706357;
   --font-playfair: "Playfair Display", serif;
   --font-dm: "DM Sans", serif;
 }

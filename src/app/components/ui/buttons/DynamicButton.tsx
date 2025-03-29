@@ -1,9 +1,9 @@
 import React from "react";
 import { MoveRight } from "lucide-react";
-export const LearnMore = () => {
+export const DynamicButton = ({text}: {text: string}) => {
   return (
     <button className="uppercase text-tertiary font-semibold  flex items-center gap-1">
-      <span className="tracking-widest">Learn More</span>
+      <span className="tracking-widest">{text}</span>
       <MoveRight size={20}/>
     </button>
   );

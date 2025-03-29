@@ -1,11 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import Divider from "../../Divider";
-import { LearnMore } from "../../ui/buttons/LearnMore";
+import { DynamicButton } from "../../ui/buttons/DynamicButton";
 
 export default function AboutCoffee() {
   return (
-    <section className="bg-white py-14 flex flex-col items-center text-center space-y-6">
+    <section className="bg-white py-14 flex flex-col items-center text-center space-y-6 relative">
       <figure className="relative">
         <Image
           className="w-[290px] object-cover"
@@ -42,7 +42,7 @@ export default function AboutCoffee() {
         </p>
       </article>
 
-      <LearnMore />
+      <DynamicButton text="Learn More" />
     </section>
   );
 }
