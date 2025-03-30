@@ -13,10 +13,18 @@ export default function DecorativeImage({ src, alt }: DecorativeImageProps) {
         alt={alt}
         width={280}
         height={280}
-        className=""
+        className="relative z-10"
       />
       <Image
-        className="absolute -bottom-5 -left-12 w-[160px]"
+        className="absolute -top-5 -left- w-[140px] "
+        src="/images/bg-stain.png"
+        alt="stain"
+        width={160}
+        height={160}
+        aria-hidden="true"
+      />
+      <Image
+        className="absolute -bottom-5 -left-12 w-[160px] z-20"
         src="/images/hero-flower.png"
         alt="Decorative flower"
         width={160}

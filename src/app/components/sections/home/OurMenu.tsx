@@ -70,7 +70,7 @@ export default function OurMenu() {
       </h1>
       <ul className="grid grid-cols-1 gap-14 mt-14">
         {menuItems.map((item, index) => (
-          <li key={index} className="flex gap-5 w-[370px]">
+          <li key={index} className="flex gap-5 max-w-[370px]">
             <Image
               className="size-[60px] mt-2"
               src={`${item.image}`}

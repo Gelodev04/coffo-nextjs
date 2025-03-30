@@ -38,7 +38,7 @@ export default function UniqueAtmosphere() {
       </p>
       <ul className="space-y-7 mt-8">
         {features.map((feature, index) => (
-          <li key={index} className="flex w-[370px] gap-3">
+          <li key={index} className="flex max-w-[370px] gap-3">
             <div>
               <CheckSolid />
             </div>

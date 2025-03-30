@@ -6,7 +6,8 @@ import DecorativeImage from "../../ui/DecorativeImage";
 
 export default function AboutCoffee() {
   return (
-    <section className="bg-white py-14 flex flex-col items-center text-center space-y-6 relative px-5">
+    <section className="bg-white py-14 flex flex-col items-center text-center space-y-6 relative px-5 bg-no-repeat bg-cover" style={{backgroundImage: "url('/images/bg-darkleft.png')"}}>
+      
       <DecorativeImage src="/images/about-girl.png" alt="Girl drinking coffee"/>
 
       <div className="my-4">

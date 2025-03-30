@@ -37,7 +37,7 @@ export default function Explore() {
         {menu.map((item, index) => (
           <li
             key={index}
-            className="bg-white flex flex-col items-center space-y-3 py-7 px-10 w-[380px]"
+            className="bg-white flex flex-col items-center space-y-3 py-7 px-10 max-w-[380px]"
           >
             <Image src={item.img} alt={item.name} width={100} height={100} />
             <h2 className="text-main font-playfair text-[1.7rem] font-semibold">
