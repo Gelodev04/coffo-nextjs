@@ -11,11 +11,11 @@ export default function Navbar() {
   const navItems = [
     {
       name: "Coffee House",
-      href: "/",
+      href: "/coffeehouse",
     },
     {
       name: "About Us",
-      href: "/",
+      href: "/aboutus",
     },
     {
       name: "Our Team",
@@ -58,14 +58,14 @@ export default function Navbar() {
         </div>
 
         {/* Logo */}
-        <div className="flex-1 flex justify-center">
+        <Link href="/" className="flex-1 flex justify-center">
           <Image
             src="/images/logo.png"
             alt="coffo logo"
             width={110}
             height={110}
           />
-        </div>
+        </Link>
 
        
         <div className="w-6"></div>
