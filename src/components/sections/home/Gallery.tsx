@@ -12,9 +12,9 @@ export default function Gallery() {
 
   return (
     <section className="p-4 bg-white">
-      <ul className="grid grid-cols-1 gap-4">
+      <ul className="grid grid-cols-1 gap-4 lg:grid-cols-3 items-center justify-center">
         {galleryItems.map((item, index) => (
-          <li key={index} className="group overflow-hidden">
+          <li key={index} className="group overflow-hidden flex justify-center items-center">
             <Image className="group-hover:scale-110 duration-150 ease-in-out" src={item.src} alt={item.title} width={500} height={500} />
           </li>
         ))}

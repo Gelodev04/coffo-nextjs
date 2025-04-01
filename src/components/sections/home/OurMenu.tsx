@@ -63,12 +63,12 @@ export default function OurMenu() {
   ];
 
   return (
-    <section className="bg-[#1f151e] py-14 flex flex-col items-center px-5">
+    <section className="bg-[#1f151e] py-14 flex flex-col items-center px-5 pb-[5rem]">
       <Divider color="#ECC493" />
       <h1 className="text-white font-playfair text-[38px] font-semibold mt-4">
         Our menu
       </h1>
-      <ul className="grid grid-cols-1 gap-14 mt-14">
+      <ul className="grid grid-cols-1 gap-14 mt-14 lg:grid-cols-2">
         {menuItems.map((item, index) => (
           <li key={index} className="flex gap-5 max-w-[370px]">
             <Image

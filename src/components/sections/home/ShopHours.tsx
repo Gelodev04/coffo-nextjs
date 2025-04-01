@@ -29,26 +29,27 @@ export default function ShopHours() {
 
       <DynamicButton text="contact us" margin="my-10" />
 
-      <ul className="border border-divideryellow p-9 max-w-[400px] w-full space-y-7">
-        <h3 className="text-[26px] font-playfair font-[600] text-white">
-          Working Hours
-        </h3>
-        {workingHours.map((items, index) => {
-          return (
-            <li
-              key={index}
-              className="text-[#C6C6C6] flex items-center justify-between "
-            >
-              <span>{items.day}</span>
-              <span className="flex-grow border-b border-dotted border-divideryellow mx-3"></span>
-              <span>{items.hours}</span>
-            </li>
-          );
-        })}
-      </ul>
-
-      <div className="w-full mt-10 max-w-[400px]">
-        <GoogleMapEmbed />
+      <div className="w-full flex items-center flex-col lg:flex-row-reverse justify-center gap-10 relative h-full"> 
+        <ul className="border border-divideryellow p-9 max-w-[400px] w-full space-y-7 lg:h-[500px]">
+          <h3 className="text-[26px] font-playfair font-[600] text-white">
+            Working Hours
+          </h3>
+          {workingHours.map((items, index) => {
+            return (
+              <li
+                key={index}
+                className="text-[#C6C6C6] flex items-center justify-between "
+              >
+                <span>{items.day}</span>
+                <span className="flex-grow border-b border-dotted border-divideryellow mx-3"></span>
+                <span>{items.hours}</span>
+              </li>
+            );
+          })}
+        </ul>
+        <div className="w-full mt-10 max-w-[400px] h-[500px] lg:mt-0">
+          <GoogleMapEmbed />
+        </div>
       </div>
     </section>
   );

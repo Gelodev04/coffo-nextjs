@@ -13,7 +13,7 @@ export default function DecorativeImage({ src, alt }: DecorativeImageProps) {
         alt={alt}
         width={280}
         height={280}
-        className="relative z-10"
+        className="relative z-10 lg:w-[400px]"
       />
       <Image
         className="absolute -top-5 -left- w-[140px] "

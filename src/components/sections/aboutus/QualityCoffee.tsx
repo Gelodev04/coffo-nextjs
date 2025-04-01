@@ -6,8 +6,8 @@ import { DynamicButton } from '@/components/ui/buttons/DynamicButton'
 
 export default function QualityCoffee() {
   return (
-    <>
-    <section className='py-16 flex flex-col items-center px-5'>
+    <section className='bg-no-repeat bg-center bg-contain' style={{backgroundImage: 'url("/images/evrvr-bfg.png")'}}>
+    <div className='py-16 flex flex-col items-center px-5'>
         <Image src='/images/jhbj-876x1024.png' alt='Bartenders' width={300} height={300}/>
         <Divider color='#2b231e' margin='mt-10'/>
 
@@ -17,10 +17,10 @@ export default function QualityCoffee() {
         </div>
 
         <StatsCard/>
-    </section>
+    </div>
 
 
-    <section className='py-16 flex flex-col items-center px-5'>
+    <div className='py-16 flex flex-col items-center px-5'>
         <Image className='max-w-[270px]' src='/images/gjhh-782x1024.png' alt='Man holding coffee beans' width={300} height={300}/>
 
         <Divider color='#2b231e' margin='mt-10'/>
@@ -31,7 +31,7 @@ export default function QualityCoffee() {
         </div>
 
         <DynamicButton text='Watch Video'/>
+    </div>
     </section>
-    </>
   )
 }

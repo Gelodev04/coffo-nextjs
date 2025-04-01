@@ -32,9 +32,9 @@ export default function Testimonials() {
   ];
 
   return (
-    <section className="  px-5 flex flex-col items-center py-14">
+    <section className="  px-5 flex flex-col items-center py-14 lg:pb-[8rem]">
       <Divider color="#2b231e" />
-      <div className="text-center space-y-5 mt-6">
+      <div className="text-center space-y-5 mt-6 max-w-[600px]">
         <h1 className="font-playfair text-[38px] font-semibold text-main leading-tight">
           Hear from our awesome <br /> clients
         </h1>
@@ -44,11 +44,11 @@ export default function Testimonials() {
         </p>
       </div>
 
-      <ul className="mt-14 flex flex-col gap-10">
+      <ul className="mt-14 flex flex-col gap-10 lg:flex-row">
         {testimonials.map((testimonial) => (
           <li
             key={testimonial.id}
-            className="relative flex flex-col items-center bg-white py-6 gap-2 max-w-[400px] px-8"
+            className="relative flex flex-col items-center bg-white py-8 gap-2 max-w-[400px] px-8 lg shadow"
           >
             <div className="absolute top-2 left-2 text-red-500">
               <DoubleQuotes />
