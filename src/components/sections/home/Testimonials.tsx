@@ -11,7 +11,7 @@ export default function Testimonials() {
       role: "WEB DESIGNER",
       image: "/images/clients/client1.png",
       quote:
-        "Craset Mauris venenatis est ut ante egestas, at maximus dolor dictum. Donec auctor mauris sit amet euismod tristique.",
+        "This coffee shop is my go-to place for inspiration. The cozy ambiance and rich aroma make it the perfect spot to work on my designs.",
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ export default function Testimonials() {
       role: "BLOGGER",
       image: "/images/clients/client2.png",
       quote:
-        "Craset Mauris venenatis est ut ante egestas, at maximus dolor dictum. Donec auctor mauris sit amet euismod tristique.",
+        "I love spending my mornings here! The coffee is exceptional, and the staff always make me feel at home. Highly recommended!",
     },
     {
       id: 3,
@@ -27,9 +27,10 @@ export default function Testimonials() {
       role: "BLOGGER",
       image: "/images/clients/client3.png",
       quote:
-        "Craset Mauris venenatis est ut ante egestas, at maximus dolor dictum. Donec auctor mauris sit amet euismod tristique.",
+        "A hidden gem! The Ethiopian coffee has such a distinct flavor, and the fresh bakery selection is a delight. Perfect for writing sessions!",
     },
   ];
+  
 
   return (
     <section className="  px-5 flex flex-col items-center py-14 lg:pb-[8rem]">
@@ -64,9 +65,9 @@ export default function Testimonials() {
               className="rounded-full size-[110px]"
             />
 
-            <div className="text-center space-y-2">
+            <div className="text-center space-y-3">
               <p className="text-main">{testimonial.quote}</p>
-              <h3 className="font-playfair  text-[18px] font-semibold">
+              <h3 className="font-playfair  text-[18px] font-semibold text-main">
                 {testimonial.name}
               </h3>
               <p className="text-sm tracking-widest font-semibold text-[#706357]">

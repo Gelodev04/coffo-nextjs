@@ -9,19 +9,20 @@ export default function UniqueAtmosphere() {
     {
       title: "Flavourous coffee",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+        "Experience the rich aroma and deep flavors of our expertly brewed coffee, made from the finest Ethiopian coffee beans.",
     },
     {
       title: "Good music",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+        "Enjoy a cozy ambiance with carefully curated music that enhances your coffee experience, whether you're working or relaxing.",
     },
     {
       title: "Fresh bakery",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+        "Pair your coffee with our freshly baked pastries, crafted daily to bring you the perfect balance of taste and texture.",
     },
   ];
+  
 
   return (
     <section className="flex flex-col items-center py-14 px-5 lg:flex-row max-w-[1100px] mx-auto lg:gap-[5rem]">

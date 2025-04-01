@@ -10,24 +10,25 @@ export default function DeliveryService() {
     {
       title: "You place the order",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisi cing elit, sed do eiusmod tempor incididunt ut abore et dolore magna.",
+        "Simply browse our menu, select your favorite coffee, and place your order online or in-store. It's quick and easy!",
     },
     {
-      title: "We grind coffee",
+      title: "We grind fresh coffee",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisi cing elit, sed do eiusmod tempor incididunt ut abore et dolore magna.",
+        "Once we receive your order, our expert baristas grind freshly sourced coffee beans to ensure the best flavor and aroma.",
     },
     {
-      title: "Pack the order",
+      title: "We pack your order",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisi cing elit, sed do eiusmod tempor incididunt ut abore et dolore magna.",
+        "After grinding, we carefully prepare and pack your coffee order with the utmost care to ensure it reaches you in perfect condition.",
     },
     {
-      title: "Deliver on time",
+      title: "Delivered to you on time",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisi cing elit, sed do eiusmod tempor incididunt ut abore et dolore magna.",
+        "Your order is then delivered quickly and on time, so you can enjoy your freshly brewed coffee at home, in the office, or wherever you are.",
     },
   ];
+  
 
   return (
     <section className="flex flex-col items-center py-7 px-5 pb-14 ">

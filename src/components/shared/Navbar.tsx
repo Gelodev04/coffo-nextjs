@@ -51,8 +51,8 @@ export default function Navbar() {
           <Image
             src="/images/logo.png"
             alt="coffo logo"
-            width={110}
-            height={110}
+            width={130}
+            height={130}
           />
         </Link>
 
