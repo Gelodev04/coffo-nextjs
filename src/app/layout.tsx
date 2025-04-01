@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/shared/Navbar";
 import Footer from "@/components/shared/Footer";
 import ProgressBar from "@/components/shared/ProgressBar";
+import ProgressBarWithSuspense from "@/components/shared/ProgressBar";
 
 
 // const geistSans = Geist({
@@ -31,7 +32,7 @@ export default function RootLayout({
       <body
         className={` antialiased font-dm`}
       >
-        <ProgressBar/>
+        <ProgressBarWithSuspense/>
         <Navbar/>
         {children}
         <Footer/>
