@@ -50,7 +50,7 @@ export default function OurTeam() {
 
             <DynamicButton text="view all team" margin="my-7"/>
 
-            <ul className="grid grid-cols-1 gap-5">
+            <ul className="grid grid-cols-1 gap-5 lg:grid-cols-3">
                 {team.map((item, index) => (
                     <li key={index} className="max-w-[400px] relative group ">
                         <Image className="" src={item.img} alt="Our Team" width={500} height={500}/>

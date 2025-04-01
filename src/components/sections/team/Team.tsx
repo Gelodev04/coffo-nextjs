@@ -40,7 +40,7 @@ export default function () {
 
   return (
     <section className="py-16 px-5 flex flex-col items-center">
-      <ul className="grid grid-cols-1 gap-16">
+      <ul className="grid grid-cols-1 gap-16 lg:grid-cols-3">
         {team.map((item, index) => (
           <li key={index}>
             <div className="relative max-w-[300px] max-h-[300px] w-full h-full">

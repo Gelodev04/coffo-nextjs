@@ -36,4 +36,16 @@ html, body {
   --font-mono: var(--font-geist-mono);
 }
 
+/* Change progress bar color */
+#nprogress .bar {
+  background: #ff4d00 !important; /* Change color */
+  height: 3px;
+}
+
+/* Remove the spinner */
+#nprogress .spinner {
+  display: none !important;
+}
+
+
 

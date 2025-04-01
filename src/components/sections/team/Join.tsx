@@ -3,7 +3,7 @@ import { OrderNow } from "@/components/ui/buttons/OrderNow";
 export default function Join() {
   return (
     <div
-      className="bg-[#fffaf7] flex flex-col items-center px-10 max-w-[500px] py-10 space-y-6 bg-no-repeat bg-cover "
+      className="bg-[#fffaf7] flex flex-col items-center px-10 max-w-[500px] py-10 space-y-6 bg-no-repeat bg-cover lg:max-w-[1000px] mx-auto my-10"
       style={{ backgroundImage: "url('/images/rthrth.png')" }}
     >
       <div className="text-center space-y-3">
