@@ -14,8 +14,8 @@ export default function AboutCoffee() {
           <div className="my-4">
             <Divider color="#2b231e" />
           </div>
-          <article className="">
-            <h2 className="font-playfair text-main font-semibold text-[2.5rem] leading-tight mt-4 lg:text-[3.3rem]">
+          <article className="text-center lg:text-start">
+            <h2 className="font-playfair text-main font-semibold text-[2.5rem] leading-tight mt-4 lg:text-[3.3rem] ">
               We use the highest quality coffee beans
             </h2>
             <p className="text-secondary mt-4">

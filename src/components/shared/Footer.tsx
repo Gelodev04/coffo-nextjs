@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-[700px] mx-auto lg:max-w-[1300px]">
 
         <div className="lg:flex gap-16  justify-center lg:py-10 ">
-          <div className="w-[400px]">
+          <div className="max-w-[400px]">
             <h2 className="text-[30px] font-semibold ">Coffo</h2>
             <p className="  text-secondary my-2 ">
               There are people who can’t start their day without having a freshly brewed cup of coffee and we understand them.
