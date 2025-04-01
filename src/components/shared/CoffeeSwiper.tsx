@@ -16,8 +16,8 @@ export const CoffeeSwiper = () => {
   ];
 
   return (
-    <div className="relative flex flex-col items-center max-w-[380px] h-[370px] ">
-      <div className="absolute  bottom-[1.5rem] ">
+    <div className="relative flex flex-col items-center max-w-[380px] h-[370px] lg:max-w-[500px]">
+      <div className="absolute  bottom-[1.5rem] lg:bottom-[-5rem]">
         <ArrowRight className="swiper-button-prev" color="#2b231e" size={20} />
         <ArrowLeft className="swiper-button-next" color="#2b231e" size={20} />
       </div>
@@ -38,20 +38,20 @@ export const CoffeeSwiper = () => {
             className="flex  h-full justify-center items-center   "
           >
             <Image
-              className=" size-[225px] mx-auto"
+              className=" size-[225px] mx-auto lg:size-[350px]"
               src={img.img}
               alt="Coffee slide"
-              width={200}
-              height={200}
+              width={500}
+              height={500}
             />
-            <p className="text-center font-playfair font-semibold text-[1.5rem] mt-4 text-main">
+            <p className="text-center font-playfair font-semibold text-[1.5rem] mt-4 text-main ">
               {img.name}
             </p>
           </SwiperSlide>
         ))}
       </Swiper>
 
-      <div className="bg-[#ecc393] w-[225px] h-[370px] absolute rounded-t-full "></div>
+      <div className="bg-[#ecc393] w-[225px] lg:size-[350px] h-[370px] lg:h-[500px] absolute rounded-t-full "></div>
     </div>
   );
 };

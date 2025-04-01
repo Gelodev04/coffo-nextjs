@@ -71,11 +71,17 @@ export default function Navbar() {
         <ul className="hidden  lg:flex gap-5 font-bold cursor-pointer items-center">
           {navItems.map((item, index) => (
             <li key={index} className=" ">
-              <span className="text-main tracking-widest hover:text-red-500 transition-all duration-100 ease-out">{item.name}</span>
+              <Link href={item.href || "/"}>
+                <span className="text-main tracking-widest hover:text-red-500 transition-all duration-100 ease-out">
+                  {item.name}
+                </span>
+              </Link>
             </li>
           ))}
 
-          <button className="outline text-main py-1 px-4 cursor-pointer hover:bg-main outline-main hover:text-white duration-150 ease-in-out ml-5">Buy Now</button>
+          <button className="outline text-main py-1 px-4 cursor-pointer hover:bg-main outline-main hover:text-white duration-150 ease-in-out ml-5">
+            Buy Now
+          </button>
         </ul>
       </nav>
 

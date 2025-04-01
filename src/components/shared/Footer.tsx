@@ -5,14 +5,14 @@ const Footer = () => {
     <footer className="bg-[#FDF2E9]  py-10 px-8 text-[#1A1A1A] font-dm">
       <div className="max-w-[700px] mx-auto lg:max-w-[1300px]">
 
-        <div className="lg:flex gap-16 items-center justify-center lg:pb-10">
+        <div className="lg:flex gap-16  justify-center lg:py-10 ">
           <div className="w-[400px]">
             <h2 className="text-[30px] font-semibold ">Coffo</h2>
-            <p className="  text-secondary my-2">
+            <p className="  text-secondary my-2 ">
               There are people who can’t start their day without having a freshly brewed cup of coffee and we understand them.
             </p>
           </div>
-          <div className=" mt-10 space-y-3 text-sm">
+          <div className=" mt-10 space-y-3 text-sm lg:mt-0">
             <h3 className="font-semibold uppercase ">Contact Us</h3>
             <p>555 Arabica Springs Rd, Crawford, TN 38554</p>
             <p>
@@ -20,7 +20,7 @@ const Footer = () => {
             </p>
             <p>coffo@company.com</p>
           </div>
-          <div className="mt-10 text-sm space-y-3">
+          <div className="mt-10 text-sm space-y-3 lg:mt-0">
             <h3 className="font-semibold uppercase ">Subscribe to Newsletter</h3>
             <div className="flex max-w-[400px]">
               <input
